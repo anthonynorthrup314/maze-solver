@@ -7,7 +7,7 @@ This was originally written just after the video came out, but I upgraded the co
 ## Demo:
 
 ```bash
-> python main.py ./files/maze_large.png fit4 fast
+> python main.py ./files/maze_large.png fit2 fast
 ```
 ![Demo](Demo.gif?raw=true "Demo")
 

@@ -1,7 +1,13 @@
-import datetime, functools, os, pygame, sys
+import datetime, functools, os, sys
 from enum import Enum
 import random as lrandom
 from typing import Callable, List, Tuple, TypeVar
+
+### Hide the pygame welcome before importing
+### https://stackoverflow.com/a/55769463
+
+os.environ["PYGAME_HIDE_SUPPORT_PROMPT"] = "hide"
+import pygame
 
 ### Game settings
 
